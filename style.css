@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,700&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #040433;
+    padding: 1rem;
+    
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3f65dc;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    text-align: center; 
+  }
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}  
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #3f65dc;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+  
+  }
+  
+  .navbar-container {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    text-align: center;
+  }
+  
+  .navbar-item {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1rem;
+    margin: 0 5rem 0 5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-toggler {
+    display: none;
+  }
+.games-o-year{
+    margin: 8rem;
+    color: #fff;
+}
+ .games-of-the-year{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8rem;
+ } 
+ .games-of-the-year img{
+    width: 24%;
+    height: 17rem;
+    margin: 0px 2px;
+ }
+ .container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6rem;
+    padding: 2rem 3rem 5rem 3rem;
+    color: #fff;
+ }
+.container img{
+  width: 17rem;
+  margin: 2rem
+}
+.container h1{
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem;
+}
+.container p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 3rem;
+}
+footer{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem;
+  padding: 2rem;
+}
+.about-us{
+  width: 30%;
+}
+.contact-us{
+  width: 30%;
+}
+button{
+  border-radius: 30px;
+  
+}
+
+#formContainer {
+  position: fixed; /* position the form container fixed on the screen */
+  top: 0; /* align the form container to the top of the screen */
+  left: 0; /* align the form container to the left of the screen */
+  right: 0; /* align the form container to the right of the screen */
+  bottom: 0; /* align the form container to the bottom of the screen */
+  background-color: rgba(0,0,0,0.5); /* make the background semi-transparent */
+  display: flex; /* center the form horizontally and vertically */
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+#formContainer form{
+  font-size: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+}
+.no-scroll {
+  overflow: hidden;
+}
+#myForm input, #myForm label {
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+}
+#myForm label {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+#myForm input {
+  font-size: 16px;
+  color: #555;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+#formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  height: 40%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 9999;
+  color: #040433;
+}
+
+#myForm input[type=submit] {
+  background-color: #3f65dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  border-radius: 4px;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#cancelBtn {
+  background-color: #f44336;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+#myForm input[type=submit]:hover, #cancelBtn:hover {
+  background-color: #3f65dc;
+  margin: 0 auto;
+}
